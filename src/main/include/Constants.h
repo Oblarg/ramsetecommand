@@ -103,7 +103,7 @@ namespace DriveTrainConstants {
 
 namespace AutoConstants {
     constexpr auto kMaxSpeed = 2_mps;
-    constexpr auto kMaxAcceleration = 0_mps_sq;
+    constexpr auto kMaxAcceleration = 2_mps_sq;
 
     // Reasonable baseline values for a RAMSETE follower in units of meters and
     // seconds

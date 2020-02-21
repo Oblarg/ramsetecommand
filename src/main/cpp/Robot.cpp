@@ -45,6 +45,7 @@ void Robot::AutonomousInit() {
   m_autonomousCommand = m_container.GetAutonomousCommand();
 
   if (m_autonomousCommand != nullptr) {
+    std::cout << "auto command scheduled" << std::endl;
     m_autonomousCommand->Schedule();
   }
 }
